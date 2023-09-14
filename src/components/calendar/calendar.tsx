@@ -252,7 +252,7 @@ export const Calendar: React.FC<CalendarProps> = ({
             value={topValue}
             x1Line={columnWidth * (i + 1)}
             y1Line={0}
-            y2Line={topDefaultHeight}
+            y2Line={topDefaultHeight * 2}
             xText={
               columnWidth * (i + 1) -
               getDaysInMonth(date.getMonth(), date.getFullYear()) *
